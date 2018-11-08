@@ -91,7 +91,7 @@ class SearchBox(var appcontext: Context) {
         } else {
             filteredList.clear()
             for (item in searchItems) {
-                if (item.searchText.toLowerCase().contains(text.toLowerCase())) {
+                if (item.searchText!!.toLowerCase().contains(text.toLowerCase())) {
                     filteredList.add(item)
                 }
             }

@@ -1,4 +1,4 @@
-package com.arivista.myapplication
+package com.arivista.myapplication.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.arivista.myapplication.Model.SearchItem
+import com.arivista.myapplication.R
 
 import java.util.ArrayList
 

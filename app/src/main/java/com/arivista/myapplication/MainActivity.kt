@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.arivista.myapplication.Model.SearchItem
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {

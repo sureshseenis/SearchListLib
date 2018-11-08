@@ -2,7 +2,6 @@ package com.arivista.myapplication
 
 import android.app.AlertDialog
 import android.content.Context
-import android.content.DialogInterface
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.text.Editable
@@ -15,6 +14,8 @@ import android.widget.Toast
 import java.util.ArrayList
 
 import android.content.Context.LAYOUT_INFLATER_SERVICE
+import com.arivista.myapplication.Model.SearchItem
+import com.arivista.myapplication.adapter.SearchRecyclerview
 
 class SearchBox(var appcontext: Context) {
     internal var selectedSearchItem: SearchItem? = null
